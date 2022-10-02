@@ -39,5 +39,5 @@ const calculate = () => {
 const removeLast = () => {
     let outLine = document.getElementById("result").innerHTML;
 
-    document.getElementById("result").innerHTML = n.substr(0, outLine.length - 1);
+    document.getElementById("result").innerHTML = outLine.substr(0, outLine.length - 1);
 }
